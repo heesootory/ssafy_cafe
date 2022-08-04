@@ -1,0 +1,157 @@
+*{
+    padding : 0px;
+    margin : 0px;
+}
+
+.movie{
+    overflow : hidden;
+    position: relative;
+    animation: movie_ani 25s;
+}
+
+.movie video{
+    height : 100%;
+    width : 100%;
+    opacity : 1;
+}
+
+.text{
+    display : flex;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top : 15%;
+    left: 50%;
+
+    font-size : 60px;
+    animation: movie_ani 25s;
+    opacity: 0;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.text1,.text2,.text3,.text4{
+    margin : 0px 0px 0px 30px;
+    color:darkslategrey
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+
+.text1{
+
+    animation: text1_ani 2s;
+}
+.text2{
+
+    animation: text2_ani 6s;
+}
+.text3{
+
+    animation: text3_ani 10s;
+}
+.text4{
+
+    animation: text4_ani 14s;
+}
+
+@keyframes text1_ani{
+    /*1초 시작*/
+    0%{
+        opacity: 0;
+    }
+    70%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+
+}
+@keyframes text2_ani{
+    /*3초 시작*/
+    0%{
+        opacity: 0;
+    }
+    70%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+
+}
+@keyframes text3_ani{
+    /*5초 시작*/
+    0%{
+        opacity: 0;
+    }
+    70%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+
+}
+@keyframes text4_ani{
+    /*7초 시작*/
+    0%{
+        opacity: 0;
+    }
+    70%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+
+}
+
+@keyframes movie_ani {
+    50% {
+        opacity : 0.9;
+    }
+    55% {
+        opacity : 0.8;
+    }
+    60% {
+        opacity : 0.7;
+    }
+    65% {
+        opacity : 0.6;
+    }
+    70% {
+        opacity : 0.5;
+    }
+    75% {
+        opacity : 0.4;
+    }
+    80% {
+        opacity : 0.3;
+    }
+    85% {
+        opacity : 0.2;
+    }
+    90% {
+        opacity : 0.1;
+    }
+    95% {
+        opacity : 0.05;
+    }
+    100% {
+        opacity : 0;
+    }
+}
+.movie{
+    opacity: 0;
+}

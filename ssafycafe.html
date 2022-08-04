@@ -1,0 +1,527 @@
+<DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8" />
+
+      <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+      <link rel="stylesheet" href="css/starbucks.css" />
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <title>SSAFY COFFEE</title>
+    </head>
+    <body>
+      <header>
+        <div
+          class="ediv"
+          style="
+            height: 100px;
+            top: 0px;
+            left: 0px;
+            background-color: white;
+            position: fixed;
+            width: 100%;
+            z-index: 100000;
+            text-align: center;
+            border-top: 2px solid black;
+          "
+        >
+          <img
+            src="https://edu.ssafy.com/asset/images/header-logo.jpg"
+            style="float: left; margin-left: 350px; width: 100px; height: 70px;position:absolute;top:15px"
+          />
+          <div style="margin-right: 450px">
+            <div class="dropdown" style="float: right">
+              <img
+                style="margin-top: 15px; margin-right: 50px"
+                src="https://image.istarbucks.co.kr/common/img/common/icon_magnifier_black.png"
+              />
+            </div>
+            <div class="dropdown1" style="float: right">
+              <button class="dropbtn1" onclick="location.href='menu.html' ">주문하기</button>
+            </div>
+            <div class="dropdown1" style="float: right">
+              <button class="dropbtn1">장바구니</button>
+            </div>
+            <!-- <div class="dropdown1" style="float: right">
+              <button class="dropbtn1">My Starbucks</button>
+            </div> -->
+            <!-- <div class="dropdown1" style="float: right">
+              <button class="dropbtn1">Sign In</button>
+            </div> -->
+          </div>
+          <br />
+          <br />
+          <div class="name" style="">
+            <div class="dropdown" style="float: right;margin-right:200px;margin-bottom: 20px;">
+              <button class="dropbtn" style="margin-top:-38px">Smoothie</button>
+              <div class="dropdown-content" style="left: 0;">
+                <div
+                  id="c"
+                  style="
+                    margin-left: 370px;
+                    margin-top: 20px;
+                    margin-right: 120px;
+                  "
+                >
+                  <a href="#"
+                    ><strong><font style="color: white">메뉴</font></strong></a
+                  >
+                  <a href="#">요거트스무디</a>
+                  <a href="#">딸기요거트스무디</a>
+                  <a href="#">블루베리요거트스무디</a>
+                  <a href="#">애플망고스무디</a>
+                  <a href="#">골드키위스무디</a>
+
+                </div>
+                <div id="c" style="margin-right: 120px; margin-top: 20px">
+                  <a href="#"
+                    ><strong><font style="color: white"></font></strong></a
+                  >
+                  <a href="#"></a>
+                  <a href="#"></a>
+                  <a href="#"></a>
+                  <a href="#"></a>
+                  <a href="#"></a>
+                  <a href="#"></a>
+                  <a href="#"></a>
+                </div>
+                <div id="c" style="margin-right: 120px; margin-top: 20px">
+                  <a href="#"
+                    ><strong><font style="color: white">HOT</font></strong></a
+                  >
+
+                </div>
+                <div id="c" style="margin-right: 120px; margin-top: 20px">
+                  <a href="#"
+                    ><strong><font style="color: white"></font></strong></a
+                  >
+                  <a href="#"></a>
+                  <a href="#"></a>
+                </div>
+                <div id="c" style="margin-right: 120px; margin-top: 20px">
+                  <a href="#"
+                    ><strong
+                      ><font style="color: white">ICE</font></strong
+                    ></a
+                  >
+                  <a href="#">3.5</a>
+                  <a href="#">3.8</a>
+                  <a href="#">3.8</a>
+                  <a href="#">3.8</a>
+                  <a href="#">3.5</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="dropdown" style="float: right">
+              <button class="dropbtn" style="margin-top:-38px">Ade</button>
+              <div class="dropdown-content" style="left: 0">
+                <div
+                  id="c"
+                  style="
+                    margin-left: 370px;
+                    margin-top: 20px;
+                    margin-right: 120px;
+                  "
+                >
+                  <a href="#"
+                    ><strong><font style="color: white">메뉴</font></strong></a
+                  >
+                  <a href="#">레몬에이드</a>
+                  <a href="#">자몽에이드</a>
+                  <a href="#">청포도에이드</a>
+                  <a href="#">애플망고에이드</a>
+                  <a href="#">한라봉에이드</a>
+
+                </div>
+                <div id="c" style="margin-right: 120px; margin-top: 20px">
+                  <a href="#"
+                    ><strong><font style="color: white"></font></strong></a
+                  >
+                  <a href="#"></a>
+                  <a href="#"></a>
+                  <a href="#"></a>
+                  <a href="#"></a>
+                  <a href="#"></a>
+                  <a href="#"></a>
+                  <a href="#"></a>
+                </div>
+                <div id="c" style="margin-right: 120px; margin-top: 20px">
+                  <a href="#"
+                    ><strong><font style="color: white">HOT</font></strong></a
+                  >
+
+                </div>
+                <div id="c" style="margin-right: 120px; margin-top: 20px">
+                  <a href="#"
+                    ><strong><font style="color: white"></font></strong></a
+                  >
+                  <a href="#"></a>
+                  <a href="#"></a>
+                </div>
+                <div id="c" style="margin-right: 120px; margin-top: 20px">
+                  <a href="#"
+                    ><strong
+                      ><font style="color: white">ICE</font></strong
+                    ></a
+                  >
+                  <a href="#">3.5</a>
+                  <a href="#">3.5</a>
+                  <a href="#">3.5</a>
+                  <a href="#">3.5</a>
+                  <a href="#">3.5</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="dropdown" style="float: right">
+              <button class="dropbtn" style="margin-top:-38px">Tea</button>
+              <div class="dropdown-content" style="left: 0">
+                <div
+                  id="c"
+                  style="
+                    margin-left: 370px;
+                    margin-top: 20px;
+                    margin-right: 120px;
+                  "
+                >
+                  <a href="#"
+                    ><strong><font style="color: white">메뉴</font></strong></a
+                  >
+                  <a href="#">얼그레이</a>
+                  <a href="#">캐모마일애플스파이스</a>
+                  <a href="#">루이스보스데바이네</a>
+                  <a href="#">버베나오렌지민트</a>
+                  <a href="#">유자차</a>
+                  <a href="#">자몽차</a>
+                  <a href="#">레몬차</a>
+                  <a href="#">한라봉차</a>
+                  <a href="#">자몽허니블랙티</a>
+                  <a href="#">피치얼그레이</a>
+                </div>
+                <div id="c" style="margin-right: 120px; margin-top: 20px">
+                  <a href="#"
+                    ><strong><font style="color: white"></font></strong></a
+                  >
+                  <a href="#"></a>
+                  <a href="#"></a>
+                  <a href="#"></a>
+                  <a href="#"></a>
+                  <a href="#"></a>
+                  <a href="#"></a>
+                  <a href="#"></a>
+                </div>
+                <div id="c" style="margin-right: 120px; margin-top: 20px">
+                  <a href="#"
+                    ><strong><font style="color: white">HOT</font></strong></a
+                  >
+                  <a href="#">2.5</a>
+                  <a href="#">2.5</a>
+                  <a href="#">2.5</a>
+                  <a href="#">2.5</a>
+                  <a href="#">2.7</a>
+                  <a href="#">2.7</a>
+                  <a href="#">2.7</a>
+                  <a href="#">2.7</a>
+                  <a href="#">3.0</a>
+                  <a href="#">3.0</a>
+                </div>
+                <div id="c" style="margin-right: 120px; margin-top: 20px">
+                  <a href="#"
+                    ><strong><font style="color: white"></font></strong></a
+                  >
+                  <a href="#"></a>
+                  <a href="#"></a>
+                </div>
+                <div id="c" style="margin-right: 120px; margin-top: 20px">
+                  <a href="#"
+                    ><strong
+                      ><font style="color: white">ICE</font></strong
+                    ></a
+                  >
+                  <a href="#">2.5</a>
+                  <a href="#">2.5</a>
+                  <a href="#">2.5</a>
+                  <a href="#">2.5</a>
+                  <a href="#">3.0</a>
+                  <a href="#">3.0</a>
+                  <a href="#">3.0</a>
+                  <a href="#">3.0</a>
+                  <a href="#">3.3</a>
+                  <a href="#">3.3</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="dropdown" style="float: right">
+              <button class="dropbtn" style="margin-top:-38px">Coffee</button>
+              <div class="dropdown-content" style="left: 0">
+                <div
+                  id="c"
+                  style="
+                    margin-left: 370px;
+                    margin-top: 20px;
+                    margin-right: 120px;
+                  "
+                >
+                  <a href="#"
+                    ><strong><font style="color: white">메뉴</font></strong></a
+                  >
+                  <a href="#">아메리카노</a>
+                  <a href="#">카페라떼</a>
+                  <a href="#">카푸치노</a>
+                  <a href="#">연유라떼</a>
+                  <a href="#">바닐라라떼</a>
+                  <a href="#">카페모카</a>
+                  <a href="#">카라멜마끼아또</a>
+                  <a href="#">콜드브루</a>
+                  <a href="#">콜드브루라떼</a>
+                  <a href="#">콜드브루 디카페인</a>
+                </div>
+                <div id="c" style="margin-right: 120px; margin-top: 20px">
+                  <a href="#"
+                    ><strong><font style="color: white"></font></strong></a
+                  >
+                  <a href="#"></a>
+                  <a href="#"></a>
+                  <a href="#"></a>
+                  <a href="#"></a>
+                  <a href="#"></a>
+                  <a href="#"></a>
+                  <a href="#"></a>
+                </div>
+                <div id="c" style="margin-right: 120px; margin-top: 20px">
+                  <a href="#"
+                    ><strong><font style="color: white">HOT</font></strong></a
+                  >
+                  <a href="#">1.5</a>
+                  <a href="#">2.0</a>
+                  <a href="#">2.0</a>
+                  <a href="#">2.8</a>
+                  <a href="#">2.8</a>
+                  <a href="#">3.0</a>
+                  <a href="#">3.0</a>
+                  <a href="#"></a>
+                  <a href="#"></a>
+                  <a href="#"></a>
+                </div>
+                <div id="c" style="margin-right: 120px; margin-top: 20px">
+                  <a href="#"
+                    ><strong><font style="color: white"></font></strong></a
+                  >
+                  <a href="#"></a>
+                  <a href="#"></a>
+                </div>
+                <div id="c" style="margin-right: 120px; margin-top: 20px">
+                  <a href="#"
+                    ><strong
+                      ><font style="color: white">ICE</font></strong
+                    ></a
+                  >
+                  <a href="#">1.8</a>
+                  <a href="#">2.5</a>
+                  <a href="#"></a>
+                  <a href="#">3.3</a>
+                  <a href="#">3.3</a>
+                  <a href="#">3.5</a>
+                  <a href="#">3.5</a>
+                  <a href="#">2.0</a>
+                  <a href="#">2.5</a>
+                  <a href="#">+0.5</a>
+                </div>
+              </div>
+            </div>
+        </div>
+      </header>
+      <nav>
+        <!--
+      1. fixed로 카드 고정
+      2. 애니메이션 효과 준 사진 활용 (스타벅스 홈페이지에서는 음료사진 순차적으로 등장하는 것)
+      3. z-index로 nav태그 안에 한번 더 띄워서 배너구현(안해도 됨)
+    -->
+        <img
+          style="
+            position: absolute;
+            z-index: 1;
+            top: 106px;
+            width: 100%;
+            height: 900px;
+          "
+        />
+        <!-- <img
+          src="https://image.istarbucks.co.kr/upload/banner/floatingbnr/WIP8gI_20220412094131003.png"
+          style="right: 200px; top: 150px; position: fixed; z-index: 2000"
+        /><br />
+        <img
+          src="https://image.istarbucks.co.kr/upload/banner/floatingbnr/1R97kl_20220429161554431.png"
+          style="right: 200px; top: 250px; position: fixed; z-index: 2000"
+        /> -->
+        <img
+          class="anime1"
+          src="https://image.istarbucks.co.kr/upload/common/img/main/2022/2022_Summer1_main_slogun.png"
+          style="left: 15%; top: 30%; position: absolute; z-index: 2;transform: translate(-50%, -50%);"
+        />
+       
+        <img
+          class="anime2"
+          src="https://kfcapi.inicis.com/kfcs_api_img/KFCS/goods/DL_1444724_20220704181858020.png"
+          style="
+            left: 50%;
+            top: 45%;
+            position: absolute;
+            z-index: 1;
+            height: 400px;
+            transform: translate(-50%, -50%);
+          "
+        />
+        
+        <img
+          class="anime3"
+          src="https://mblogthumb-phinf.pstatic.net/MjAyMTEyMDRfMTQ1/MDAxNjM4NjI3MDgwNTc0.aS-jUe5T5CkCe5Q2u83kjv5y0PKGDo0u9V8Ltu4ggHIg.m0j2X65VFg6WRKON_uGFY61IICPCf9a4F_O50DAIgXkg.PNG.life5649/SE-b41e5e26-b272-40c0-9619-ae9429355363.png?type=w800"
+          style="
+            left: 35%;
+            top: 55%;
+            position: absolute;
+            z-index: 1;
+            height: 400px;
+            transform: translate(-50%, -50%);
+          "
+        />
+        <img
+          class="anime4"
+          src="https://static.wixstatic.com/media/b5dcaf_b0f8da8f3f0b44a0ad0339cac12740e9~mv2.png/v1/crop/x_295,y_0,w_690,h_1280/fill/w_304,h_564,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/%EC%83%A4%EC%9D%B8%EB%A8%B8%EC%8A%A4%EC%BC%93-%EC%8A%A4%EB%AC%B4%EB%94%94_%EB%88%84%EB%81%BC.png"
+          style="
+            right: 20%;
+            top: 55%;
+            position: absolute;
+            z-index: 1;
+
+            transform: translate(-50%, -50%);
+          "
+        />
+        <div class = "jsh" style="right:275px;font-weight:400;top:375px;padding:7px;border : 2px solid #d73a7a;border-radius:30;position:absolute;z-index:2;color:#d73a7a;border-radius:5px;">&nbsp;&nbsp;&nbsp;by.SAFFY 대전캠퍼스 카페&nbsp;&nbsp;&nbsp;</div>
+        <div
+          style="
+            bottom: 200px;
+            height: 50px;
+            width: 100%;
+            position: absolute;
+            z-index: 2;
+          "
+        >
+          <div
+            style="
+              bottom: 0px;
+              float: left;
+              height: 50px;
+              width: 55%;
+              background-color: black;
+              color: white;
+              text-align: center;
+              display: block;
+              padding-top: 30px;
+            "
+          >
+            <strong>공지사항</strong>
+          </div>
+          <div
+            style="
+              bottom: 0px;
+              float: right;
+              height: 50px;
+              width: 45%;
+              background-color: white;
+              color: #565554;
+              text-align: center;
+              display: block;
+              padding-top: 30px;
+            "
+          >
+            <strong>싸피커피 프로모션</strong>
+          </div>
+        </div>
+      </nav>
+      <section>
+        <article>
+          <div style="color:whitesmoke;font-weight: 900;font-size: 48px;position: absolute;
+          z-index: 3;
+          left: 30%;
+          top: 105%;
+          height: auto;
+          text-align: left;
+          margin-top: -110px;">싸피 카페에 오신 여러분 환영합니다!</div>
+          <img
+            src="https://image.istarbucks.co.kr/upload/common/img/main/2022/2022_Summer1_bean_bg_left.png"
+            style="
+              position: absolute;
+              z-index: 2;
+              left: 0%;
+              top: 85%;
+              width: 25%;
+              height: auto;
+              left: 0px;
+              margin-top: -110px;
+            "
+          />
+          <img
+            src="https://image.istarbucks.co.kr/upload/common/img/main/2022/2022_Summer1_bean_bg_right.png"
+            style="
+              position: absolute;
+              z-index: 2;
+              right: 0%;
+              top: 135%;
+              width: 25%;
+              height: auto;
+              right: 0px;
+              margin-top: 250px;
+            "
+          />
+          <img
+            src="src/cafe1.jpg"
+            style="
+              left: 500px;
+              top: 115%;
+              position: absolute;
+              z-index: 2;
+              width: 400px;
+              height: 500px;
+              border-radius: 40px;
+            "
+            data-aos="slide-right"
+            data-aos="slide-left"
+            data-aos-duration="1900"
+          />
+          <img
+            src="src/cafe2.jpg"
+            style="
+              right: 500px;
+              top: 115%;
+              position: absolute;
+              z-index: 2;
+              width: 400px;
+              height: 500px;
+              border-radius: 40px;
+            "
+            data-aos="slide-left"
+            data-aos-duration="2500"
+          />
+        </article>
+      </section>
+
+      <footer>
+        <div style="text-align:center;color:#999999;">
+          <br><br><br>
+          <span style="margin-right:10px;margin-top:15%">주소 : 대전 유성구 동서대로 98-39 1층</span><br><br>
+          <span style="margin-right:10px">소속 : 싸피 대전캠퍼스</span><br><br>
+          <span style="margin-right:10px">TEL : xxxx-xxxx</span><br><br>
+          <span style="margin-right:10px">만든이 : 최희수, 김승완</span><br><br>
+          <span>ⓒ 2022 SSAFY Coffee Company. All Rights Reserved.</span>
+          </div>
+      </footer>
+
+      <script>
+        AOS.init();
+      </script>
+      <script src="js/order.js"></script>
+    </body>
+  </html></DOCTYPE
+>

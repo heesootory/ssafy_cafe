@@ -1,0 +1,238 @@
+body {
+  font-family: "nbg", "맑은 고딕", HelveticaNeue, DroidSans, Sans-serif,
+    Helvetica;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: white;
+  /* top:0px; */
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+nav {
+  background-image: url("https://image.istarbucks.co.kr/upload/common/img/main/2022/2022_Summer1_main_bg.jpg");
+  /* top:700px; */
+  width: 100%;
+  height: 600px;
+  display: block;
+}
+
+.ediv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.name {
+  margin-right: 300px;
+}
+
+section {
+  /* top:1500px; */
+  width: 100%;
+  height: 1000px;
+  background-color: cornflowerblue;
+  display: block;
+}
+
+article {
+}
+
+footer {
+  /* top:1700px; */
+  width: 100%;
+  height: 300px;
+  background-color: #333333;
+  display: block;
+}
+
+.jsh {
+  animation-name: fadeOut;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-delay: 2s;
+  opacity: 0;
+}
+
+.jsh:hover {
+  background-color: #d73a7a;
+  text-decoration: underline;
+  color: #ffffff;
+}
+.dropbtn {
+  background-color: white;
+  color: #333333;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  float: center;
+  text-decoration: none;
+  font-size: 13px;
+  top: 0px;
+}
+.dropbtn1 {
+  background-color: white;
+  color: #555555;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  float: center;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.dropdown {
+  float: right;
+  display: inline;
+  text-align: left;
+}
+
+.dropdown1 {
+  float: right;
+  display: inline;
+  text-align: left;
+}
+
+.dropdown-content {
+  /*
+ height:10px;
+  transition : height 1s;
+*/
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 100;
+}
+
+.dropdown-content a {
+  color: darkgrey;
+  display: block;
+  text-decoration: none;
+  padding: 3px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.dropdown:hover .dropbtn {
+  color: olivedrab;
+  background-color: #333333;
+  text-decoration: underline;
+}
+.dropdown1:hover .dropbtn1 {
+  text-decoration: underline;
+}
+
+.dropdown:hover .dropdown-content {
+  background-color: #333333;
+  opacity: 0.21;
+}
+
+.dropdown-content a:hover {
+  text-decoration: underline;
+}
+
+.dropdown:hover .dropdown-content {
+  /*dropdown으로내려갔을때 contants들의 투명도*/ /* 주석  */
+  display: block;
+  opacity: 1;
+  float: left;
+  height: 400px;
+}
+.dropdown:hover .dropdown-content #c {
+  /*dropdown으로내려갔을때 contants들의 투명도*/ /* 주석  */
+  display: block;
+  opacity: 1;
+  float: left;
+}
+
+.anime1 {
+  animation-name: fadeOut;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  opacity: 0;
+}
+.anime2 {
+  animation-name: fadeOut;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-delay: 0.5s;
+  opacity: 0;
+}
+.anime3 {
+  animation-name: fadeOut;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-delay: 1s;
+  opacity: 0;
+}
+.anime4 {
+  animation-name: fadeOut;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-delay: 1.5s;
+  opacity: 0;
+}
+.anime5 {
+  animation-name: fadeOut;
+  animation-fill-mode: forwards;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  opacity: 0;
+}
+@keyframes moverowleft {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: 300px;
+  }
+  100% {
+    left: 600px;
+  }
+}
+@keyframes moverowleft {
+  0% {
+    right: 0;
+  }
+  50% {
+    right: 300px;
+  }
+  100% {
+    right: 600px;
+  }
+}
+@keyframes movecolumn {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: 100px;
+  }
+  100% {
+    left: 300px;
+  }
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
